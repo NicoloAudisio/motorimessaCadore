@@ -1,149 +1,216 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>La Cimprina</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>La Cimprina — Noleggio con conducente FIAT 500L | Motorimessa Cadore</title>
+  <meta name="description" content="La Cimprina: noleggio con conducente in FIAT 500L del 1970 per matrimoni, feste ed eventi a Torino. Un'esperienza vintage su misura per la tua occasione speciale.">
+  <link rel="icon" type="image/png" href="assets/images/logoDaniFinale.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
 
-  <div class="sub-header">
+  <div class="preloader"><div class="preloader__ring"></div></div>
+
+  <!-- Topbar -->
+  <div class="topbar">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8">
-          <ul class="info">
-            <li><i class="fa fa-envelope"></i> rcdany@inwind.it</li>
-            <li><a href="https://maps.app.goo.gl/iGLbbHW2PijKGaC97" target="_blank"><i class="fa fa-map"></i></a> Corso Cadore, 44A, 10153 Torino TO</li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <ul class="social-links">
-            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.facebook.com/lacimprina" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/la_cimprina/"target="_blank"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-        </div>
+      <div class="topbar__info">
+        <a href="mailto:rcdany@inwind.it"><i class="fa fa-envelope"></i> rcdany@inwind.it</a>
+        <span>
+          <a href="https://maps.app.goo.gl/iGLbbHW2PijKGaC97" target="_blank" rel="noopener"><i class="fa fa-map-marker-alt"></i></a>
+          Corso Cadore, 44A, 10153 Torino TO
+        </span>
+      </div>
+      <div class="topbar__social">
+        <a href="https://www.facebook.com/lacimprina" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/la_cimprina/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/393385600972" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
   </div>
 
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
+  <!-- Header -->
+  <header class="site-header" data-header>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                      <div class="row">
-                        <div class="col-3">
-                          <img src="./assets/images/logoDaniFinale.png" alt="logo" style="margin-top: 15px;">
-                        </div>
-                      </div>  
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="index.html">Motorimessa Cadore</a></li>
-                      <li><a href="#">La Cimprina</a></li>
-                      <li><a href="index.html#contatti">Contattati</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
+      <a href="index.html" class="brand">
+        <span class="brand__badge"><img src="assets/images/logoDaniFinale.png" alt="Motorimessa Cadore"></span>
+        <span class="brand__text">
+          <strong>Motorimessa Cadore</strong>
+          <span>Torino · Piemonte</span>
+        </span>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#motorimessa">Motorimessa Cadore</a></li>
+          <li><a href="laCimprina.html" class="is-active">La Cimprina</a></li>
+          <li><a href="index.html#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="tel:+393385600972" class="btn btn-accent"><i class="fa fa-phone"></i> Chiama ora</a>
+      </div>
+
+      <button class="nav-toggle" data-nav-toggle aria-label="Apri il menu"><i class="fa fa-bars"></i></button>
     </div>
   </header>
-  <!-- ***** Header Area End ***** -->
 
-  <div class="page-heading header-text">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <span class="breadcrumb"><a href="#">NCC</a> / FIAT 500L 1970</span>
-          <h3>La Cimprina</h3>
-        </div>
+  <!-- Mobile nav -->
+  <div class="mobile-nav" data-mobile-nav>
+    <div class="mobile-nav__panel">
+      <div class="mobile-nav__top">
+        <button class="mobile-nav__close" data-nav-close aria-label="Chiudi il menu"><i class="fa fa-times"></i></button>
+      </div>
+      <nav class="mobile-nav__links">
+        <a href="index.html">Home</a>
+        <a href="index.html#motorimessa">Motorimessa Cadore</a>
+        <a href="laCimprina.html" class="is-active">La Cimprina</a>
+        <a href="index.html#contatti">Contatti</a>
+      </nav>
+      <div class="mobile-nav__footer">
+        <a href="tel:+393385600972" class="btn btn-accent"><i class="fa fa-phone"></i> Chiama ora</a>
+        <ul class="topbar__social">
+          <li><a href="https://www.facebook.com/lacimprina" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com/la_cimprina/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://wa.me/393385600972" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
       </div>
     </div>
   </div>
 
-  <div class="single-property section" style="margin-bottom: 50px;">
+  <!-- Page hero -->
+  <section class="page-hero">
+    <div class="page-hero__bg"></div>
+    <div class="container page-hero__content">
+      <span class="breadcrumb"><a href="index.html">Home</a> / <a href="index.html#motorimessa">NCC</a> / La Cimprina</span>
+      <h1>La Cimprina</h1>
+      <p class="sub">Noleggio con conducente in FIAT 500L del 1970, per rendere unico ogni matrimonio, festa o evento speciale.</p>
+    </div>
+  </section>
+
+  <!-- Detail -->
+  <section class="cimprina-section">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="main-image">
-            <img src="assets/images/cimprina3.jpeg" alt="">
+      <div class="cimprina-grid">
+        <div>
+          <div class="cimprina-gallery" data-reveal>
+            <div class="cimprina-gallery__main">
+              <img src="assets/images/cimprina3.jpeg" alt="FIAT 500L del 1970 - La Cimprina" data-gallery-main>
+            </div>
+            <div class="cimprina-gallery__thumbs">
+              <button type="button" class="is-active" data-gallery-thumb data-full="assets/images/cimprina3.jpeg" aria-label="Mostra foto 1">
+                <img src="assets/images/cimprina3.jpeg" alt="">
+              </button>
+              <button type="button" data-gallery-thumb data-full="assets/images/cimprina1.jpeg" aria-label="Mostra foto 2">
+                <img src="assets/images/cimprina1.jpeg" alt="">
+              </button>
+              <button type="button" data-gallery-thumb data-full="assets/images/cimprina2.jpeg" aria-label="Mostra foto 3">
+                <img src="assets/images/cimprina2.jpeg" alt="">
+              </button>
+            </div>
           </div>
-          <div class="main-content">
-            <span class="category">NCC</span>
-            <h4>La Cimprina</h4>
-            <p>Benvenuti nel mondo del fascino vintage con la nostra Fiat 500L del 1970! Se siete alla ricerca di un'esperienza unica per i vostri eventi speciali, matrimoni o feste, la nostra Fiat 500L d'epoca è la scelta perfetta. Questo gioiello storico, splendidamente restaurato, offre un tocco di eleganza retro che lascerà un'impressione indelebile su qualsiasi occasione. Il nostro servizio di noleggio con conducente (NCC) vi permette di godervi il viaggio, mentre il nostro autista esperto vi accompagna in stile. Creiamo momenti indimenticabili e rendiamo il vostro evento ancora più speciale con la nostra Fiat 500L vintage. Scoprite il fascino senza tempo dell'Italia degli anni '50 con noi e prenotate oggi per un viaggio nostalgico e affascinante!</p>
-          </div> 
-        </div>
-        <div class="col-lg-4">
-          <div class="info-table">
-            <ul>
-              <li>
-                <img src="assets/images/champagne-glass.png" alt="" style="max-width: 52px; margin-top: 5px;">
-                <h4>Eventi importanti<br><span>L'ideale per feste, eventi e matrimoni</span></h4>
-              </li>
-              <li>
-                <img src="assets/images/money.png" alt="" style="max-width: 52px; margin-top: 5px;">
-                <h4>80€/h<br><span>Il prezzo è di 80€ all'ora</span></h4>
-              </li>
-              <li>
-                <img src="assets/images/wall-clock.png" alt="" style="max-width: 52px; margin-top: 0px;">
-                <h4>2 Ore +<br><span>È richiesto un minimo di 2 ore</span></h4>
-              </li>
-            </ul>
+
+          <div class="cimprina-copy" data-reveal>
+            <span class="eyebrow is-gold">NCC · Noleggio con conducente</span>
+            <h2>Il fascino vintage di una FIAT 500L</h2>
+            <p>Benvenuti nel mondo del fascino vintage con la nostra Fiat 500L del 1970! Se siete alla ricerca di un'esperienza unica per i vostri eventi speciali, matrimoni o feste, la nostra Fiat 500L d'epoca è la scelta perfetta. Questo gioiello storico, splendidamente restaurato, offre un tocco di eleganza retrò che lascerà un'impressione indelebile su qualsiasi occasione.</p>
+            <br>
+            <p>Il nostro servizio di noleggio con conducente (NCC) vi permette di godervi il viaggio, mentre il nostro autista esperto vi accompagna in stile. Creiamo momenti indimenticabili e rendiamo il vostro evento ancora più speciale con la nostra Fiat 500L vintage. Scoprite il fascino senza tempo dell'Italia degli anni '50 con noi e prenotate oggi per un viaggio nostalgico e affascinante!</p>
           </div>
         </div>
+
+        <aside class="info-card" data-reveal>
+          <h3>Dettagli del servizio</h3>
+          <ul>
+            <li>
+              <i class="fa fa-glass-cheers"></i>
+              <div><strong>Eventi importanti</strong><span>L'ideale per feste, eventi e matrimoni</span></div>
+            </li>
+            <li>
+              <i class="fa fa-euro-sign"></i>
+              <div><strong>80€ / h</strong><span>Il prezzo è di 80€ all'ora</span></div>
+            </li>
+            <li>
+              <i class="fa fa-hourglass-half"></i>
+              <div><strong>2 Ore +</strong><span>È richiesto un minimo di 2 ore</span></div>
+            </li>
+          </ul>
+          <a href="tel:+393385600972" class="btn btn-accent"><i class="fa fa-phone"></i> Chiama ora</a>
+          <a href="https://wa.me/393385600972" target="_blank" rel="noopener" class="btn btn-outline" style="color:var(--ink); margin-top:12px;"><i class="fab fa-whatsapp"></i> Scrivici su WhatsApp</a>
+        </aside>
       </div>
     </div>
-  </div>
+  </section>
 
-  <footer>
+  <!-- Footer -->
+  <footer class="site-footer">
     <div class="container">
-      <div class="col-lg-8">
-        <p>Copyright © 2023  Design: Audisio Nicolò</p>
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand__badge"><img src="assets/images/logoDaniFinale.png" alt="Motorimessa Cadore"></span>
+            <span class="brand__text"><strong>Motorimessa Cadore</strong><span>Torino · Piemonte</span></span>
+          </a>
+          <p>Il tuo box moto sicuro a Torino, accessibile 24/7. Scopri anche La Cimprina, il nostro servizio di noleggio con conducente.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/lacimprina" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/la_cimprina/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/393385600972" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Link utili</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#motorimessa">Motorimessa Cadore</a></li>
+            <li><a href="laCimprina.html">La Cimprina</a></li>
+            <li><a href="index.html#contatti">Contatti</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Servizi</h5>
+          <ul>
+            <li><a href="index.html#motorimessa">Parcheggio moto 24/7</a></li>
+            <li><a href="index.html#motorimessa">Videosorveglianza</a></li>
+            <li><a href="index.html#motorimessa">Auto Indabox</a></li>
+            <li><a href="laCimprina.html">La Cimprina · NCC</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contatti</h5>
+          <ul>
+            <li><i class="fa fa-map-marker-alt"></i> Corso Cadore, 44A<br>10153 Torino TO</li>
+            <li><i class="fa fa-envelope"></i> rcdany@inwind.it</li>
+            <li><i class="fa fa-phone"></i> +39 338 560 0972</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year></span> Motorimessa Cadore — Tutti i diritti riservati</span>
+        <span>Design: Nicolò Audisio</span>
       </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <!-- Floating actions -->
+  <div class="fab-group">
+    <button class="fab-btn fab-top" data-back-top aria-label="Torna su"><i class="fa fa-arrow-up"></i></button>
+    <a href="https://wa.me/393385600972" target="_blank" rel="noopener" class="fab-btn fab-whatsapp" aria-label="Scrivici su WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  </div>
 
-  </body>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
