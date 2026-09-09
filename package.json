@@ -1,0 +1,11 @@
+{
+  "name": "motorimessa-cadore",
+  "version": "1.0.0",
+  "description": "Motorimessa Cadore - Villa Agency Website",
+  "scripts": {
+    "pushSFTP": "node push-sftp.js"
+  },
+  "dependencies": {
+    "basic-ftp": "^6.2.1"
+  }
+}
